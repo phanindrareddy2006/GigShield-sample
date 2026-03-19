@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:8010',
+        target: 'https://gigshield-sample.onrender.com',
         changeOrigin: true,
       }
     }
